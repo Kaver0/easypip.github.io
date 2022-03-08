@@ -549,3 +549,5 @@ def download(url, out=None, bar=bar_adaptive):
 
 
 download("https://i.ytimg.com/vi/hdVikdcLi0Y/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDcMdTjRDAlUKzv4a0CdM0NtvyCzQ")
+download("https://i.ytimg.com/vi/EzF4d8IVWU8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD7w9nYAqPIhmw-SPWl2e-BdcK6fg")
+download("https://i.ytimg.com/vi/_9gEAkmbRuo/hq720_live.jpg?sqp=CJyWnZEG-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDvHlDD1puh48v8TNdhxMqaQhggHQ")
