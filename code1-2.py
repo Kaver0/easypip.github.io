@@ -22,7 +22,7 @@ def main(user_input):
 		install_input = input("INSTALL >>> ")
 		try:
 			wget.download("https://raw.githubusercontent.com/Kaver0/easypip.github.io/main/modules/" + install_input + ".py", out="installer.py")
-			print("\n-> Вы скачали инсталятор {0}!\n-> Чтоб скачать необходимые модули перенесите файл 'installer.py' в необходимую папку, а затем откройте этот файл.\n-> После загрузки модулей, файл-инсталятор можно удалить.".format(install_input))
+			print("\n-> Вы скачали инсталятор {0}!\n-> Чтоб скачать необходимые модули перенесите файл 'installer.py' в необходимую папку, а затем откройте этот файл.\n-> После загрузки, файл-инсталятор можно удалить.".format(install_input))
 			return True
 		except Exception as _ex:
 			print("==================== Ошибка ====================\n-> Неизвестный модуль!\n-> Пожалуйста проверьте название модуля!\n================================================")
