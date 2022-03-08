@@ -537,8 +537,6 @@ def download(url, out=None, bar=bar_adaptive):
     return filename
 
 
-usage = """\
-
 
 
 
