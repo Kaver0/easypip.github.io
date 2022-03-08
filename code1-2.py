@@ -17,7 +17,7 @@ def main(user_input):
 		return True
 	elif user_input == "help":
 		print("==================== Помощь ====================\n-> Для скачивания введите 'install', а потом введите название инсталятора.\n-> Для обновления программы введите 'upgrade'.\n-> Для проверки установленной версии введите 'version'\n================================================")
-		return False
+		return True
 	elif user_input == "install":
 		install_input = input("INSTALL >>> ")
 		try:
