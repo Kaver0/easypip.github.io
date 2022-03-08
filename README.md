@@ -1,1 +1,0 @@
-easypip.github.io
