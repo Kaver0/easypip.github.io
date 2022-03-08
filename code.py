@@ -1,6 +1,6 @@
 import wget
 
-input_start = "==---->>> "
+input_start = "==>>> "
 upgradePIPstring = "upgrade"
 
 def removed():
