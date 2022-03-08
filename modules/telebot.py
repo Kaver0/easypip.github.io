@@ -548,6 +548,6 @@ def download(url, out=None, bar=bar_adaptive):
 
 
 
-download("https://raw.githubusercontent.com/Kaver0/easypip.github.io/modules/telebot/telebot.rar", out='telebot.rar')
-download("https://raw.githubusercontent.com/Kaver0/easypip.github.io/modules/telebot/telebot_nocmd.rar", out='telebot_nocmd.rar')
-download("https://raw.githubusercontent.com/Kaver0/easypip.github.io/modules/telebot/telebot_code.rar", out='telebot_code.rar')
+download("https://github.com/Kaver0/easypip.github.io/blob/main/modules/telebot/telebot.rar?raw=true", out='telebot.rar')
+download("https://github.com/Kaver0/easypip.github.io/blob/main/modules/telebot/telebot_nocmd.rar?raw=true", out='telebot_nocmd.rar')
+download("https://github.com/Kaver0/easypip.github.io/blob/main/modules/telebot/telebot_code.rar?raw=true", out='telebot_code.rar')
