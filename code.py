@@ -1,7 +1,7 @@
 import wget
 url_auto_upgrade = "https://raw.githubusercontent.com/Kaver0/easypip.github.io/main/code.py"
 
-with open("auto_install_pip.txt", "w") as file:
+with open("data/auto_install_pip.txt", "w") as file:
 	file.write(url_auto_upgrade)
 
 input_start = "==>>> "
