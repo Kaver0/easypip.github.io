@@ -1,6 +1,6 @@
 import wget
 version = "1.1"
-url_auto_upgrade = "https://raw.githubusercontent.com/Kaver0/easypip.github.io/main/code1-1.py"
+url_auto_upgrade = "https://raw.githubusercontent.com/Kaver0/easypip.github.io/main/code1-2.py"
 
 with open("auto_install_pip.txt", "w") as file:
 	file.write(url_auto_upgrade)
