@@ -1,5 +1,5 @@
 import wget
-version = "1.2"
+version = "1-2"
 url_auto_upgrade = "https://raw.githubusercontent.com/Kaver0/easypip.github.io/main/code1-2.py"
 
 with open("auto_install_pip.txt", "w") as file:
@@ -9,14 +9,14 @@ input_start = "==>>> "
 upgradePIPstring = "upgrade"
 
 def removed():
-	print("--- PIP успешно обновился! ---\nЧтоб применить изменения перезапустите программу!")
+	print("--- PIP почти обновился! ---\nЧтоб завершить обновление перезапустите программу! После чего введите 'auto'. Если функция 'auto' не найдена или не работает введите комманду 'version " + version + "'.")
 
 def main(user_input):
 	if user_input == "version":
 		print("-> PIP " + version)
 		return True
 	elif user_input == "help":
-		print("==================== Помощь ====================\n-> Для скачивания введите 'install', а потом введите название инсталятора.\n-> Для обновления программы введите 'upgrade'.\n-> Для проверки установленной версии введите 'version'.\n================================================")
+		print("==================== Помощь ====================\n-> Для скачивания введите 'install', а потом введите название инсталятора.\n-> Для обновления программы введите 'upgrade'.\n-> Для проверки установленной версии введите 'version'\n================================================")
 		return True
 	elif user_input == "install":
 		install_input = input("INSTALL >>> ")
