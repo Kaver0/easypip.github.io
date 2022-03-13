@@ -1,6 +1,11 @@
-import os
+os_found = True
+try:
+	import os
+except Exception as _ex:
+	print("    **** WARNING ****  \n  ** Module OS not found **\n  ** Please delete the codePIP file manually when updating the PIP **")
+	os_found = False
 import wget
-import time
+import tim
 
 try:
 	with open("auto_install_pip.txt", "r") as file:
@@ -50,8 +55,11 @@ while stop == False:
 	user_input = input(codePIP.input_start)
 
 	if user_input == codePIP.upgradePIPstring:
-		os.remove('codePIP.py')
-		codePIP.removed()
+		if os_found == False:
+			print("  Please delete the PIP code file manually when updating the PIP  ")
+		else:
+			os.remove('codePIP.py')
+			codePIP.removed()
 	elif codePIP.main(user_input) == False:
 		print("** ERROR in PIP **\nThis program will close in 10 seconds!")
 		time.sleep(10)
