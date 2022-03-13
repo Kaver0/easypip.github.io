@@ -58,8 +58,11 @@ while stop == False:
 		if os_found == False:
 			print("  Please delete the PIP code file manually when updating the PIP  ")
 		else:
-			os.remove('codePIP.py')
-			codePIP.removed()
+			try:
+				os.remove('codePIP.py')
+				codePIP.removed()
+			except Exception as _ex:
+				print("  Please delete the PIP code file manually when updating the PIP  ")
 	elif codePIP.main(user_input) == False:
 		print("** ERROR in PIP **\nThis program will close in 10 seconds!")
 		time.sleep(10)
