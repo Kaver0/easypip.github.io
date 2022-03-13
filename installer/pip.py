@@ -5,7 +5,7 @@ except Exception as _ex:
 	print("    **** WARNING ****  \n  ** Module OS not found **\n  ** Please delete the codePIP file manually when updating the PIP **")
 	os_found = False
 import wget
-import tim
+import time
 
 try:
 	with open("auto_install_pip.txt", "r") as file:
