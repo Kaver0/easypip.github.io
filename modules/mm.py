@@ -548,4 +548,4 @@ def download(url, out=None, bar=bar_adaptive):
 
 
 
-download("https://github.com/Kaver0/easypip.github.io/blob/main/modules/maxandmin/main.py", out='main.py')
+download("https://raw.githubusercontent.com/Kaver0/easypip.github.io/main/modules/maxandmin/main.py", out='main.py')
